@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title></title>
+    <title>Şehrim</title>
   </head>
-  <body>
+  <body class="bg-secondary">
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="anasayfa.html">ANASAYFA</a>
-        
+        <a class="navbar-brand" href="hakkımda.html">ANASAYFA</a>
+       
        
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,78 @@
           </ul>
         </div>
       </nav>
+      <div class="container">
+        <h1 class="display-3 text-center">Şehrim</h1>
+        <hr>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+           <!--4 elemanlı bir slider oluşturdum.-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#pamukkale"><img src="fotoğraflar\pamukkale_1.jpeg" class="d-block w-100" alt="pamukkale"></a>
+                    <!--Slider'ın bu elemanında olduğu gibi tüm elemanlara resim ekledim ve aşağıda kart kullanarak tanıttığım ilgili bölümlere bağlantı verdim.-->
+                </div>
+                <div class="carousel-item">
+                    <a href="#laodikya"><img src="fotoğraflar\laodikya.jpeg" class="d-block w-100" alt="laodikya"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#camlık"><img src="fotoğraflar\çamlık.jpeg" class="d-block w-100" alt="camlık"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#teleferik"><img src="fotoğraflar\teleferik_1.jpeg" class="d-block w-100" alt="teleferik"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Önceki</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Sonraki</span>
+            </a>
+        </div>
 
+        <div class="media mt-5">
+            <img src="fotoğraflar\horoz.jpeg" class="align-self-center mr-3" alt="Denizli">
+            <div class="media-body"> 
+              <div> <a href="https://tr.wikipedia.org/wiki/Denizli"><h5 class="mt-0">Denizli</h5></a>
+                </div> 
+             
+                <p>Denizli, Türkiye'nin bir ili ve en büyük on beşinci kent merkezidir. (Denizli merkez nüfusu 657.802 kişi) 2019 itibarıyla 1.037.208 kişilik il nüfusuna sahiptir.[3] Tekstil ürünleri ve yöreye has Denizli horozu ile meşhurdur. Anadolu Yarımadası'nın güneybatı, Ege Bölgesi'nin güneydoğusunda yer almaktadır. Ege ve Akdeniz Bölgeleri arasında bir geçit durumundadır. Denizli ilinin her iki bölge üzerinde de toprakları vardır.
+                <p class="mb-0">Turistik yerler: <a href="#pamukkale" class="text-dark">Pamukkale</a> , <a href="#laodikya" class="text-dark">Laodikya</a> .</p>
+            </div>
+        </div>
+        <h2 class="display-4 text-center mt-3">Gezilecek Yerler</h2>
+        <hr>
+        <!--Kartları kullanarak turistlik yerler için tanıtım yazıları bölümü yaptım. Ayrıca Sliderdaki resimlere tıklandığında buradaki ilgili içeriğe yönleniyor.-->
+        <div class="card" id="pamukkale"> <!--1.kart-->
+            <img src="fotoğraflar\pamukkale_1.jpeg" class="card-img-top" alt="pamukkale">
+            <div class="card-body">
+                <h3>Pamukkale Travertenleri</h3>
+                <p class="card-text"> Pamukkale, güneybatı Türkiye'deki Denizli ilinde doğal bir mevkidir. Kent Kaplıcaları ve akan sulardan kalan karbonat mineralleri teraslarını, travertenleri kapsamaktadır. Türkiye'nin Ege bölgesinde, ılıman bir iklimi olan Menderes Nehri vadisinde bulunur. Turistlerin tercih yerlerdendir. Eski Hierapolis kenti, toplam 2700 metre uzunluğunda, 600 metre genişliğinde ve 160 metre yüksekliğindeki beyaz "kalenin" üzerine inşa edilmişti. Pamukkale, Denizli'nin 20 km uzaktaki merkezindeki vadinin karşı tarafındaki tepelerden görülebilir. 5–10 km yakınında Laodikya antik kenti bulunur. 5 km ilerisinde ise uluslararası bir termal merkez olan Karahayıt köyü vardır. Pamukkale UNESCO tarafından belirlenen Dünya Miras Listesi'nde yer almaktadır. Travertenler görsel zenginliğin yanı sıra kalp rahatsızlıkları, romatizma, sindirim, solunum, dolaşım ve deri rahatsızlıklarına iyi gelmektedir.</p>
+        </div>
+        <div class="card mt-2" id="laodikya"> <!--2.kart-->
+            <img src="fotoğraflar\laodikya.jpeg" class="card-img-top" alt="laodikya">
+            <div class="card-body">
+                <h3>Laodikeia</h3>
+                <p class="card-text">Laodikeia, MÖ 1. yüzyılda Anadolu'nun kentlerinden biridir. Denizli ilinin 6 km kuzeyinde yer alan antik Laodikeia kenti, coğrafi bakımdan çok uygun bir noktada ve Lykos ırmağının güneyinde kurulmuştur. Kentin adı antik kaynaklarda daha çok “Lykos'un kıyısındaki Laodikeia” şeklinde geçmektedir. Diğer antik kaynaklara göre ise, kent MÖ 261-263 yılları arasında II. Antiokhos tarafından kurulmuş ve kente Antiokhos'un karısı Laodike'nin adı verilmiştir.</p>
+            </div>
+        </div>
+        <div class="card mt-2" id="camlık"><!--3.kart-->
+            <img src="fotoğraflar\çamlık.jpeg" class="card-img-top" alt="camlık">
+            <div class="card-body">
+                <h3>Çamlık Parkı</h3>
+                <p class="card-text">Çamlık parkı 1977 yılında düzenlenmiştir. Çamlık Parkı, Denizli'de Çamlaraltı mahallesinde bulunan halka açık ormanlık park. 2007 yılında Beltaş Denizli Büyükşehir Belediyesi tarafından işletilmeye başlamıştır. Parkın içinde hayvanat bahçesi, spor alanları ve ateşli piknik alanları gibi alanlar vardır. Günlük ortalama 20.000 kişi ziyarete gelir.[1] Orman Bölge Müdürlüğü parkın içinde yer alır. Parkın ilerisinde Seyir Kalesi (Seyir Tepesi) yer alır. Bu tepeden bütün şehir görülebilir.</p>
+        </div>
+        <div class="card my-2" id="teleferik"><!--4.kart-->
+            <img src="fotoğraflar\teleferik_1.jpeg" class="card-img-top" alt="teleferik">
+            <div class="card-body">
+                <h3>Teleferik</h3>
+                <p class="card-text">Teleferik 2015 yılında hizmete girmiştir . Ege Bölgesinin en uzun teleferik ünvanını taşımaktadır. Denizli'ye kuş bakışı güzel bir görüntü sunmaktadır.</p>
+            </div>
+        </div>
+        <a href="laodikya.html" class="btn btn-danger btn-block my-4">Şehrimizin Mirası : Laodikya</a>
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
